@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\rafael.alves\CLionProjects\maratona Select CMakeLists.txt
