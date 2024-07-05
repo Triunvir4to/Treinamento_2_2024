@@ -3,7 +3,6 @@
 using namespace std;
 
 int main () {
-    bool inInterval = false;
     double v; cin >> v;
 
     if(v < 0){
@@ -17,14 +16,12 @@ int main () {
     for(int i = 0; i < 4; ++i){
         double val = v - vs[i];
         if(val <= 0){
-            inInterval = true;
             cout << "Intervalo " << a[i] << endl;
-            break;
+            return 0;
         }
     }
 
-    if(!inInterval)
-        cout << "Fora de intervalo\n";
+    cout << "Fora de intervalo\n";
 
     return 0;
 }
